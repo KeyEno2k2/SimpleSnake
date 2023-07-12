@@ -1,0 +1,3 @@
+G:/Praktyki/SimpleSnake/cmake-build-debug/CMakeFiles/SimpleSnake.dir
+G:/Praktyki/SimpleSnake/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Praktyki/SimpleSnake/cmake-build-debug/CMakeFiles/rebuild_cache.dir

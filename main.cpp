@@ -124,3 +124,29 @@ void Draw(){
     cout << endl;
     cout << "\t\t\tScore: " << score << endl;
 }
+
+void Input()
+{
+    if(_kbhit())
+    {
+        switch(_getch())
+        {
+            case 'a':
+                dira = LEFT;
+                break;
+            case 'd':
+                dira = RIGHT;
+                break;
+            case 'w':
+                dira = UP;
+                break;
+            case 's':
+                dira = DOWN;
+                break;
+            case 'x':
+                gameOver = true;
+                break;
+        }
+    }
+}
+
